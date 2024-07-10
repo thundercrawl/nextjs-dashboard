@@ -1,0 +1,31 @@
+<!DOCTYPE html> 
+
+<head> 
+	<title>Tailwind grid-rows Class</title> 
+
+	<link href= 
+"https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+		rel="stylesheet"> 
+</head> 
+
+<body class="text-center"> 
+
+
+	<div id="main" class="flex h-screen flex-col md:flex-row md:overflow-hidden"> 
+		<div class="bg-green-500 w-full flex-none md:w-64">NAV
+			<div class="bg-yellow-300">NAV-1</div>
+			<div class="bg-yellow-600">NAV-2</div>
+		</div> 
+		<div class="bg-red-500 flex-grow p-6 md:overflow-y-auto md:p-12">
+			<h1 class="mb-4 text-xl md:text-2xl">
+				Dashboard
+			  </h1>
+			<div class="bg-blue-500 rounded-lg m-2 h-5/6">Content</div>
+			<div class="bg-blue-500 rounded-lg m-2 h-5/6">Content</div>
+		</div> 
+        
+		
+	</div> 
+</body> 
+
+</html> 
